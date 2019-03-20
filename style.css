@@ -4,6 +4,23 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('http://informationcommunicationtechnology.com/wp-content/uploads/2018/07/Tumblr-Backgrounds-123.jpg');
+}
+
+h3{
+    color: #fff;
+    font-size: 65px;
+}
+
+p{
+     color: #fff;
+    font-size: 15px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+}
+
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('http://informationcommunicationtechnology.com/wp-content/uploads/2018/07/Tumblr-Backgrounds-123.jpg');
     height: 100vh;
@@ -58,7 +75,17 @@ ul li.active a{
     color: #fff;
     font-size: 65px;
 }
+.wrapper{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.wrapper h1{
+    color: #fff;
+    font-size: 65px;
+}
 .button{
     position: absolute;
     top: 60%;
